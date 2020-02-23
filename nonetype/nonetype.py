@@ -11,24 +11,14 @@ Article = NamedTuple(
 )
 
 ARTICLES: Dict[str, Article] = {
-
     "0002": Article(
-        id="0002",
-        title="Another example article",
-        date="2019-10-17",
-        visible=True
+        id="0002", title="Another example article", date="2019-10-17", visible=True
     ),
     "0001": Article(
-        id="0001",
-        title="Example unfinished article",
-        date="2019-10-15",
-        visible=False
+        id="0001", title="Example unfinished article", date="2019-10-15", visible=False
     ),
     "0000": Article(
-        id="0000",
-        title="Example article 1",
-        date="2019-10-14",
-        visible=True,
+        id="0000", title="Example article 1", date="2019-10-14", visible=True
     ),
 }
 
