@@ -1,0 +1,10 @@
+{%extends "base.html"%}
+
+{%block article_title%}Articles{%endblock %}
+{%block content%}
+{% for article in articles.values() %}
+    {% if article.visible %}
+<li><a href={{url_for('article', article_id=article.id)}}>{{article.title}} ({{article.date}})</a></li>
+    {% endif %}
+{% endfor %}
+{%endblock %}
