@@ -22,7 +22,7 @@ ARTICLES: Dict[str, Article] = {
         id="0001",
         title="Example unfinished article",
         date="2019-10-15",
-        visible=True
+        visible=False
     ),
     "0000": Article(
         id="0000",
